@@ -53,7 +53,3 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
-
-In the index.html file, I remove the Google-Font.css since the file does not use any features from it. In addition, I place the inline script at the bottom of the program, because this script does not affect either style or layout setting. To reduce the download time, I inline the original style.css file.
-
-In the pizza.html file, the Math sin function has been fixed. The result is calculated before it is used by the loop. In addition, the elements' lengths in changePizzaSizes function are useless, because the return value only correlates with the size variable. Therefore, those commands related to length or width can be removed. 
